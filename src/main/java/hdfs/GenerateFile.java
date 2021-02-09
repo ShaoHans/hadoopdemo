@@ -14,7 +14,7 @@ public class GenerateFile {
         String[] languages = new String[]{"c#", "java", "python", "go", "c", "c++"};
         Random random = new Random();
         for (int i = 1; i <= 100000; i++) {
-            String str = i + " Hello " + languages[random.nextInt(languages.length)] + System.lineSeparator();
+            String str = " Hello " + languages[random.nextInt(languages.length)] + " And " + languages[random.nextInt(languages.length)] + System.lineSeparator();
             bos.write(str.getBytes());
         }
         bos.flush();

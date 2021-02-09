@@ -20,7 +20,7 @@ public class TestUpload {
         conf = new Configuration();
         // 设置块大小为1M
         conf.set("dfs.block.size", "1048576");
-        fs = FileSystem.get(URI.create("hdfs://mycluster/"), conf);
+        fs = FileSystem.get(URI.create("hdfs://mycluster/"), conf, "root");
         BufferedInputStream fis = new BufferedInputStream(new FileInputStream("test.txt"));
         Path out = getFilePath("/hadoop/data.txt");
         FSDataOutputStream fsDataOutputStream = fs.create(out);
