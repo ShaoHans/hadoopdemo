@@ -1,2 +1,9 @@
-E:\mycode\JavaCode\hadoopdemo\src\main\java\hdfs\TestUpload.java
-E:\mycode\JavaCode\hadoopdemo\src\main\java\hdfs\GenerateFile.java
+C:\work\github\hadoopdemo\src\main\java\com\shz\hadoop\bigdata\topn\WdPartitioner.java
+C:\work\github\hadoopdemo\src\main\java\com\shz\hadoop\bigdata\topn\WdSortComparator.java
+C:\work\github\hadoopdemo\src\main\java\com\shz\hadoop\bigdata\topn\WdMapper.java
+C:\work\github\hadoopdemo\src\main\java\com\shz\hadoop\hdfs\GenerateFile.java
+C:\work\github\hadoopdemo\src\main\java\com\shz\hadoop\bigdata\topn\WdReducer.java
+C:\work\github\hadoopdemo\src\main\java\com\shz\hadoop\bigdata\topn\WdGroupingComparator.java
+C:\work\github\hadoopdemo\src\main\java\com\shz\hadoop\bigdata\topn\TopN.java
+C:\work\github\hadoopdemo\src\main\java\com\shz\hadoop\hdfs\TestUpload.java
+C:\work\github\hadoopdemo\src\main\java\com\shz\hadoop\bigdata\topn\WdKey.java
